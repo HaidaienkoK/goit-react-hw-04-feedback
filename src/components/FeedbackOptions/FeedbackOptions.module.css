@@ -1,0 +1,22 @@
+.buttonWrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: 20px;
+}
+
+.button {
+    padding: 5px 10px 5px 10px;
+    text-transform: capitalize;
+    background-color: #FFFFFF;
+    font-weight: bold;
+    border: 1px solid #99a9c0;
+    border-radius: 3px;
+    
+    box-shadow: 1px 2px 2px 0px rgba(0, 0, 0, 0.28);
+    cursor: pointer;
+}
+
+.button:hover {
+        background-color: rgb(113, 104, 213);
+    }
